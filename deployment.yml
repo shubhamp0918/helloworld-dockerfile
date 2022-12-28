@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-pod
+spec:
+  containers:
+    - name: helloworld-pod
+      image: shubhamp0918/hello-world
+      ports:
+        - containerPort: 8080
